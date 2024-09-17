@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Contraseñas</title>
+</head>
+<body>
+    
+    <h1>GENERADOR DE CONTRASEÑAS</h1>
+    <br>
+
+    <div class="general">
+        <div class="opciones">
+            <input type="checkbox"  id="numeros"> Números
+            <h6>Contiene números del 0 al 9</h6>
+
+            <input type="checkbox"  id="mayusculas"> Letras mayúsculas
+            <h6>Contiene letras mayusculas de la A hasta la Z</h6>
+
+            <input type="checkbox"  id="minusculas"> Letras minúsculas
+            <h6>Contiene letras minusculas de la a hasta la z</h6>
+
+            <input type="checkbox"  id="simbolos"> Símbolos
+            <h6>Contiene Símbolos</h6>
+
+            <input type="checkbox"  id="eliminar"> Eliminar caracteres similares
+            <h6>No hay caracteres ambiguos</h6>
+
+            <input type="number" placeholder="Número de Caracteres" id="caracteres">
+            <button onclick="mezclar()">Generar</button>
+        </div>
+
+
+        <div class="cuadrado">
+            <span id = "cuadro">---</span>
+            <button onclick="copiar()">Copiar</button>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+
+body{
+    font-family: cursive;
+    height: 70vh;
+    background-image: url(imagenes/fondo.jpg);
+    color: whitesmoke;
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    border: 2px solid whitesmoke;
+    height: 20px;
+    width: 200px;
+}
+
+input{
+    font-family: cursive;
+}
+
+button{
+    font-family: cursive;
+}
+
+
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    width: 70%;
+}
+
+.opciones{
+    box-shadow: 1px 1px 10px 10px whitesmoke;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.general{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
